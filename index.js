@@ -12,7 +12,6 @@ var mins = date.getMinutes();
 var secs = date.getSeconds();
 var file_name = `${day}-${month}-${year}_${hrs}-${mins}-${secs}`;
 
-console.log("Times  "+ date)
 //set the endpoints
 app.get('/',(request,response) =>{
    response.send(`<br><h4> To create a file add</h4> /createFile
